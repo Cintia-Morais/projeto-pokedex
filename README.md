@@ -1,12 +1,75 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📘 Projeto Pokédex - React
 
-Currently, two official plugins are available:
+Oi! Eu criei essa Pokédex como exercício de React. O objetivo era consumir a API do PokéAPI e praticar conceitos como rotas, componentes, contextos e temas. Eu fui aprendendo e aplicando tudo aos poucos, então o projeto foi sendo montado com calma e atenção. 😊
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 O que a Pokédex faz
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Mostra 10 Pokémons por vez, puxando da [PokéAPI](https://pokeapi.co/)
+- Botão “Carregar mais” pra ver mais pokémons
+- Ao clicar em um pokémon, aparece uma página de detalhes com:
+  - Imagem
+  - Nome
+  - Tipo
+  - Movimentos
+  - Habilidades com descrição
+- Campo de filtro por tipo de pokémon
+- Tema claro e escuro com botão de alternância
+- Estilo feito com styled-components
+
+---
+
+## 🛠️ Tecnologias usadas
+
+- React (SPA)
+- React Router DOM (rotas)
+- Axios (requisições para a API)
+- Context API (tema claro/escuro)
+- Styled-components (estilização)
+- Jest + React Testing Library (testes)
+- Vite (para rodar o projeto)
+
+---
+
+## 🗂 Estrutura básica do projeto
+
+src/
+├── App.jsx                # Rotas principais
+├── main.jsx               # Entrada da aplicação
+├── pages/                 # Home e Details
+├── components/            # Card do Pokémon, botão, etc
+├── context/               # Contexto do tema
+├── styles/                # Estilos e temas globais
+├── services/              # Arquivo com chamada para a API
+├── setupTests.js          # Configuração para testes
+
+---
+
+## ▶️ Como rodar o projeto
+
+1. Clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2. Acesse a pasta:
+cd pokedex-app
+
+3. Instale as dependências:
+npm install
+
+4. Rode o projeto:
+npm run dev
+
+> A aplicação vai rodar em: `http://localhost:5173/`
+
+---
+
+## 🧪 Como rodar os testes
+
+npm test
+
+---
+
