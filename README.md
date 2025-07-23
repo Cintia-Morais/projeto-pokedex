@@ -37,14 +37,14 @@ Oi! Eu criei essa Pokédex como exercício de React. O objetivo era consumir a A
 ## 🗂 Estrutura básica do projeto
 
 src/
-├── App.jsx                # Rotas principais
-├── main.jsx               # Entrada da aplicação
-├── pages/                 # Home e Details
-├── components/            # Card do Pokémon, botão, etc
-├── context/               # Contexto do tema
-├── styles/                # Estilos e temas globais
-├── services/              # Arquivo com chamada para a API
-├── setupTests.js          # Configuração para testes
+ App.jsx                # Rotas principais
+ main.jsx               # Entrada da aplicação
+ pages/                 # Home e Details
+ components/            # Card do Pokémon, botão, etc
+ context/               # Contexto do tema
+ styles/                # Estilos e temas globais
+ services/              # Arquivo com chamada para a API
+ setupTests.js          # Configuração para testes
 
 ---
 
